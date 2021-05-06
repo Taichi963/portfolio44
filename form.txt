@@ -1,0 +1,16 @@
+<footer>
+		<div class="form">
+		<p>お問い合わせフォーム</p>
+			<form action="cgi-bin/formsample.cgi" method="POST">
+			<p><label>名前：<input type="text" name="udername" repuired></label></p>
+			<p><label>年齢：<input type="number" name="age" min="0" ></label></p>
+			<p><label>電話番号：<input type="tel" name="tel"></label></p>
+			<p><label>E-mail:<input type="email" name="dm"></label></p>
+			<button type="button" value="#">送信</button>
+		</form>
+	</div>
+
+footer .form{
+	text-align: center;
+	border: 1px solid;
+}
